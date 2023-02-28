@@ -254,7 +254,7 @@ resource vmName_resource 'Microsoft.Compute/virtualMachines@2022-08-01' = {
       imageReference: {
         publisher: 'RedHat'
         offer: 'RHEL'
-        sku: '8.1'
+        sku: '8_7'
         version: 'latest'
       }
       osDisk: {
