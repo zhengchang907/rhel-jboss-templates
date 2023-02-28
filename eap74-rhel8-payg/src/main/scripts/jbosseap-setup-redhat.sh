@@ -92,8 +92,8 @@ subscription-manager repos --enable=jb-eap-7.4-for-rhel-8-x86_64-rpms | log; fla
 if [ $flag != 0 ] ; then echo  "ERROR! Enabling repos for JBoss EAP Failed" >&2 log; exit $flag;  fi
 
 echo "enable microsoft repos" | log; flag=${PIPESTATUS[0]}
-echo "yum update -y -q --disablerepo='*' --enablerepo='*microsoft*'" | log; flag=${PIPESTATUS[0]}
-yum update -y -q --disablerepo='*' --enablerepo='*microsoft*'
+echo "yum update -y -q --enablerepo='*microsoft*'" | log; flag=${PIPESTATUS[0]}
+yum update -y -q --enablerepo='*microsoft*'
 
 echo "Installing JBoss EAP 7.4 repos" | log; flag=${PIPESTATUS[0]}
 echo "yum groupinstall -y jboss-eap7" | log; flag=${PIPESTATUS[0]}
