@@ -361,7 +361,7 @@
                         "type": "Microsoft.Common.TextBlock",
                         "visible": true,
                         "options": {
-                            "text": "Selecting 'Yes' here will cause the template to register JBoss EAP hosts to an existing Red Hat Satellite Server. Further configuration may be necessary after deployment.",
+                            "text": "HEHEHEHEHE Selecting 'Yes' here will cause the template to register JBoss EAP hosts to an existing Red Hat Satellite Server. Further configuration may be necessary after deployment.",
                             "link": {
                                 "label": "Learn more",
                                 "uri": "https://access.redhat.com/products/red-hat-satellite"

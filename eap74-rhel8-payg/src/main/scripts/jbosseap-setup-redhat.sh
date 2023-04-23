@@ -71,6 +71,7 @@ else
 fi
 
 ####################### Install openjdk, EAP 7.4 is shipped with JDK 1.8, we are allowing more
+echo "jdfhlaskjdhfljskh" | log; flag=${PIPESTATUS[0]}
 echo "Install openjdk, curl, wget, git, unzip, vim" | log; flag=${PIPESTATUS[0]}
 echo "sudo yum install curl wget unzip vim git -y" | log; flag=${PIPESTATUS[0]}
 sudo yum install curl wget unzip vim git -y | log; flag=${PIPESTATUS[0]}

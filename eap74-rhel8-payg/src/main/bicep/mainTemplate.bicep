@@ -101,7 +101,7 @@ param connectSatellite bool = false
 @description('Red Hat Satellite Server activation key.')
 param satelliteActivationKey string = newGuid()
 
-@description('Red Hat Satellite Server organization name.')
+@description('heheheheh Red Hat Satellite Server organization name.')
 param satelliteOrgName string = newGuid()
 
 @description('Red Hat Satellite Server VM FQDN name.')
