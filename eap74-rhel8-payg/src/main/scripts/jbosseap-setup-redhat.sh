@@ -7,6 +7,10 @@ log() {
 
 asdfasdfasdfasdfs
 
+
+
+asdfwiehjprqiwuj
+
 openport() {
     port=$1
 
