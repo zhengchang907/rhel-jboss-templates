@@ -5,6 +5,8 @@ log() {
     done
 }
 
+asdfasdfasdfasdfs
+
 openport() {
     port=$1
 
